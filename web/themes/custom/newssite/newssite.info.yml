@@ -1,0 +1,18 @@
+name: Newssite
+type: theme
+description: This theme is perfect for news sites
+core_version_requirement: ^8 || ^9
+base theme: false
+screenshot: newssite.png
+
+regions:
+  header: Header
+  content: Content
+  sidebar_first: Sidebar First
+  footer: Footer
+  page_top: Page Top
+  page_bottom: Page Bottom
+
+libraries:
+  - newssite/global-css
+  - newssite/pacifico
